@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Junior Costa</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/60bdbfa2d6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="CSS/stykes.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand  format-text1" href="#"> <img src="https://images2.imgbox.com/b5/29/n8UiTKYN_o.png"
+                    style="max-width: 50px;">Portfólio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <ul class="navbar-nav nav-buttons">
+                    <li class="nav-item ">
+                        <a class="nav-link btn-home format-text1 active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-projetos format-text1 " href="#PROJETOS">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-sobre format-text1 " href="#SOBRE">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-contato format-text1 " href="#CONTATO">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--  HOME COM FOTO E NOME DO DESENVOLVEDOR  -->
+
+    <section class="py-5 text-center container sec-home">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto div-home">
+                <img class="img-capa" src="https://images2.imgbox.com/8e/c4/tRYYsxqf_o.png" alt="Foto de Junior Costa">
+                <h1 class="fw-light format-title-claro"><i class="fab fa-python"></i> Junior Costa</h1>
+                <p class="lead text-muted">" Ser desenvolvedor é uma viagem
+                    onde a próxima parada é a solução de um problema. "</p>
+
+                <a href="https://github.com/JUNIOROKOSTA" target="_blank" class="linke-contato">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/juniorokosta/" target="_blank" class="linke-contato">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/okosta88/" target="_blank" class="linke-contato">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--  INFORMAÇÕES SOBRE PROJETOS E LINKs  -->
+
+    <a name="PROJETOS"></a>
+    <div class="album py-5 bg-light">
+
+        <h2 class=" jumbotron-heading format-title-ecuro border-bottom ">Projetos</h2>
+        <div class="container ">
+
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 py-">
+                <div class="col ">
+                    <div class="card shadow-sm">
+                        <h1 class="fw-light format-title-ecuro2">Agenda com Django</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/43/70/s31zLxCf_o.png"
+                            alt="Imagem de Projeto Agenda em Django" />
+                        <div class="card-body">
+                            <p class="card-text format-text2 ">Projeto de uma agenda de contatos, com
+                                armazenamento em um banco de dados.</p>
+                            <ul class="">
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>Django</p>
+                                </li>
+                                <li>
+                                    <p>SQLite</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/Projeto_Django_agenda"
+                                        target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-success">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/pW5hB2qk7K0" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <h1 class="fw-light format-title-ecuro2">Formatar Vídeo</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/7e/b7/lI1dqU2l_o.png"
+                            alt="Imagem de Projeto Agenda em Django ">
+                        <div class="card-body">
+                            <p class="card-text format-text2 ">Programa que altera o formato de um arquivo de
+                                vídeo(extensão).</p>
+                            <ul class="">
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>PyQt5</p>
+                                </li>
+                                <li>
+                                    <p>FFmpeg</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/formato_de_video_com_ffmpeg"
+                                        target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-success ">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/2_-q99nmI74" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col ">
+                    <div class="card shadow-sm ">
+                        <h1 class="fw-light format-title-ecuro2">Pedra-Papel-Tesoura</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/e1/07/hQAyFIR4_o.png"
+                            alt="Imagem de Projeto Agenda em Django ">
+                        <div class="card-body projeto-t">
+                            <p class="card-text format-text2 ">Jogo Pedra-Papel-Tesoura, <br>
+                                foi bem divertido construir
+                                esse game.</p>
+                            <ul class="">
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>PyQt5</p>
+                                </li>
+                                <li>
+                                    <p></p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/Proje_rock_paper_scissor"
+                                        target="_blank">
+                                        <button type="button" class="btn btn-sm btn-outline-success ">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/J8fNN2cUoEE" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <h1 class="fw-light format-title-ecuro2">Gerador de números aleatórios</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/4f/0c/Y69tmbNE_o.png"
+                            alt="Imagem de Projeto Agenda em Django ">
+                        <div class="card-body">
+                            <p class="card-text format-text2 ">Gera números aleatórios com base no número mínimo, máximo
+                                e a quantidade de números.</p>
+                            <ul class="">
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>PyQt5</p>
+                                </li>
+                                <li>
+                                    <p>Random</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/Sort_random_number/app"
+                                        target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-success">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/BoaHk8fcNWs" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <h1 class="fw-light format-title-ecuro2">Jogo Snack-Apple</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/80/a1/QepRzU3U_o.png"
+                            alt="Imagem de Projeto Agenda em Django ">
+                        <div class="card-body">
+                            <p class="card-text format-text2 ">Jogo muito divertido, criando para aprender habilidades
+                                basicas de programação de jogos.</p>
+                            <ul class="">
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>PyQt5</p>
+                                </li>
+                                <li>
+                                    <p>PyGame</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/game_Snake_Apple_Py"
+                                        target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-success">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/MrcBdECRwMg" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <h1 class="fw-light format-title-ecuro2">Redimensionar imagem</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/96/96/DQ6Y8E9w_o.png"
+                            alt="Imagem de Projeto Agenda em Django ">
+                        <div class="card-body">
+                            <p class="card-text format-text2 ">Redimensiona todas as imagens de um
+                                diretório para um novo tamanho(com base na largura).</p>
+
+                            <ul class="">
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>PyQt5</p>
+                                </li>
+                                <li>
+                                    <p>QPixmap</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/Python_Project_ReSize_img"
+                                        target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-success">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/-YuvWAGnedk" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <h1 class="fw-light format-title-ecuro2">Calculadora Python</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/5e/40/SkJAl8Sa_o.png"
+                            alt="Imagem de Projeto Agenda em Django ">
+                        <div class="card-body">
+                            <p class="card-text format-text2 ">Calculadora construída usando Python.</p>
+
+                            <ul class="">
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>PyQt5</p>
+                                </li>
+                                <li>
+                                    <p></p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/Python_Calc"
+                                        target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-success">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/Z9eoIanuA-I" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <h1 class="fw-light format-title-ecuro2">Calculadora HTML-CSS-JS</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/27/a6/KkHAuYnh_o.png"
+                            alt="Imagem de Projeto Agenda em Django ">
+                        <div class="card-body">
+                            <p class="card-text format-text2 ">Calculadora construída usando HTML, CSS e JS. Totalmente
+                                funcional com estilo dark.</p>
+
+                            <ul class="">
+                                <li>
+                                    <p>HTML</p>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                </li>
+                                <li>
+                                    <p>JS</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/CSS%20JS%20Calc%20Project"
+                                        target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-success">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/Ht7UystGDy8" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <h1 class="fw-light format-title-ecuro2">Time-Carne ARK</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/4a/3c/PhjnyLBo_o.png"
+                            alt="Imagem de Projeto Agenda em Django ">
+                        <div class="card-body">
+                            <p class="card-text format-text2 ">Temporizador que ajudar no processo de cuidados de
+                                "dinos" no jogo ARK.</p>
+
+                            <ul class="">
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>TKinter</p>
+                                </li>
+                                <li>
+                                    <p>PyGame</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/TimerCarne-main"
+                                        target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-success">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/8dketydlZ_I" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <h1 class="fw-light format-title-ecuro2">Cadastro Vendas</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/dd/7d/agxcIgh1_o.png"
+                            alt="Imagem de Projeto Agenda em Django ">
+                        <div class="card-body">
+                            <p class="card-text format-text2 ">Simples carrinho de compras, com cadastro de clientes, e
+                                registro de compras e clientes.</p>
+                            <ul class="">
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>PyQt5</p>
+                                </li>
+                                <li>
+                                    <p>SQLite</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/Projeto_Vendas_Py_SQLite"
+                                        target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-success ">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/jEsTPVGfV5U" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <h1 class="fw-light format-title-ecuro2">Registro de Apostas</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/a3/98/XcZKCJ2x_o.png"
+                            alt="Imagem de Projeto Agenda em Django ">
+                        <div class="card-body">
+                            <p class="card-text format-text2 ">Gera números para aposta, registra no banco de dados a
+                                aposta e pode buscar o resultado com um click.</p>
+                            <ul class="">
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>Request</p>
+                                </li>
+                                <li>
+                                    <p>SQLite</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/Mega-Sena_Random_Registra"
+                                        target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-success ">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/YWScfvCJeLk" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <h1 class="fw-light format-title-ecuro2">Informações do Sistema</h1>
+                        <img class="img-projects" src="https://images2.imgbox.com/02/cd/a0zQ3Yox_o.png"
+                            alt="Imagem de Projeto Agenda em Django ">
+                        <div class="card-body">
+                            <p class="card-text format-text2 ">Programa busca as informações do PC e mostra para o
+                                usuário em tempo real.</p>
+                            <ul class="">
+                                <li>
+                                    <p>Python</p>
+                                </li>
+                                <li>
+                                    <p>PyQt5</p>
+                                </li>
+                                <li>
+                                    <p>PsUtil</p>
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/JUNIOROKOSTA/Small_Projects/tree/main/Info_System_PSUTIL_PY"
+                                        target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-success ">GitHub
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                    </a>
+                                    <a href="https://youtu.be/OZPckziilBY" target="_blank" rel="external">
+                                        <button type="button" class="btn btn-sm btn-outline-danger">YouTube
+                                            <i class="fab fa-youtube"></i>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Veja mais no GitHub -->
+        <div class="row row-cols-1 d-flex ">
+            <div class="col">
+                <div class="card shadow-sm padron align-items-center">
+                    <h1 class="fw-light border-bottom format-title-ecuro">Mais projetos no GitHub:</h1>
+                    <img class="img-projects2" src="https://images2.imgbox.com/06/b0/oXFwk400_o.png"
+                        alt="Imagem de Projeto Agenda em Django " style="max-width: 90%;">
+                    <div class=" align-items-center ">
+                        <div class=" align-items-center ">
+                            <div class="btn-group d-flex">
+                                <a href="https://github.com/JUNIOROKOSTA" target="_blank">
+                                    <button type="button" class="btn btn-sm btn-outline-primary ">Ver mais Projetos no
+                                        GitHub
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                    <p></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--  INFORMAÇÕES SOBRE O DESENVOLVEDOR E HABILIDADES  -->
+    <a name="SOBRE"></a>
+    <section class="py-6  container sec-sobre">
+        <div class="row py-lg-5">
+            <h2 class="jumbotron-heading border-bottom format-title-claro">Sobre mim</h2>
+            <p class="lead format-text3">
+                Oi! Me chamo Junior Costa, recém formado em análise e desenvolvimento de sistemas. Venho da areá de
+                HardWare e Atendimento ao cliente. Já trabalhei muito com montagem e manutenção de computadores, e
+                sempre tive vontade de entra no mundo na programação de sistemas. No momento já fiz vários experimentos,
+                e sempre buscando aprender mais a cada dia.
+            </p>
+        </div>
+
+        <div class="format-text3  ">
+            <div class=" ">
+                <h2 class="pb-1 me-0 border-bottom d-flex format-title-claro2"><i
+                        class="fa fa-user-graduate icon-card"></i>Escolaridade</h2>
+                <h3 class="fw-bold mb-0">Ensino superior completo</h3>
+                <h4 class="fw-bold mb-0">Análise e Desenvolvimento de Sistemas</h4>
+                <p class=" format-text3 mb-2">UNIVERSIDADE ESTÁCIO DE SÁ.</p>
+            </div>
+        </div>
+
+        <div class="container px-4 py-5 format-text3" id="icon-grid">
+            <h2 class="pb-2 border-bottom"><i class="fa fa-check icon-card"></i>Cursos</h2>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-4 py-5">
+
+                <div class="col d-flex align-items-start">
+                    <i class="fa fa-check me-3"></i>
+
+                    <div>
+                        <h4 class="fw-bold mb-0">Desenho Técnico - AutoCAD</h4>
+                        <p>CEPEP (2010)</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <i class="fa fa-check me-3"></i>
+
+                    <div>
+                        <h4 class="fw-bold mb-0">Montagem e Manutenção de Computadores</h4>
+                        <p>SENAI (2004)</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <i class="fa fa-check me-3"></i>
+
+                    <div>
+                        <h4 class="fw-bold mb-0">Informática Básica</h4>
+                        <p>Infortec (2004)</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <i class="fa fa-check me-3"></i>
+
+                    <div>
+                        <h4 class="fw-bold mb-0">Web Design (HTML, CSS e JS)</h4>
+                        <p>Udemy (2021)</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <i class="fa fa-check me-3"></i>
+
+                    <div>
+                        <h4 class="fw-bold mb-0">Formação Cientista de Dados</h4>
+                        <p>Udemy (2022)</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <i class="fa fa-check me-3"></i>
+
+                    <div>
+                        <h4 class="fw-bold mb-0">Ciência de Dados para Empresas</h4>
+                        <p>Udemy (2022)</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container px-4 py-5 format-text3" id="icon-grid">
+            <h2 class="pb-2 border-bottom"><i class="fa fa-gamepad  icon-card"></i>Hobbies</h2>
+
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 g-4 py-5">
+
+                <div class="col d-flex align-items-start">
+                    <i class="fa fa-gamepad me-3"></i>
+
+                    <div>
+                        <h4 class="fw-bold mb-0">Adoro Jogar(MMORPG) e Programar</h4>
+                        <p>Hobbies no momento são praticar minhas habilidades de programação em Python,
+                            Analise de dados(Power BI) e as vezes me divertir em uns Games Online.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--  INFORMAÇÕES DE CONTATOS  -->
+    <a name="CONTATO"></a>
+    <div class="bg-light">
+        <div class="container  px-4 py-5" id="hanging-icons">
+            <h2 class="pb-2 border-bottom format-title-ecuro"><i class=" fa-address-book fa"></i>Contatos</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+
+                        <a href="https://github.com/JUNIOROKOSTA" target="_blank" class="linke-contato2">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+
+                    </div>
+                    <div>
+                        <h3 class="fs-2 ">GitHub</h3>
+                        <p>JUNIOROKOSTA</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+
+                        <a href="https://www.linkedin.com/in/juniorokosta/" target="_blank" class="linke-contato2">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                    </div>
+                    <div>
+                        <h3 class="fs-2 ">Linkedin</h3>
+                        <p>Junior Costa</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+
+                        <a href="https://www.instagram.com/okosta88/" target="_blank" class="linke-contato2">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+
+                    </div>
+                    <div>
+                        <h3 class="fs-2 ">Instagram</h3>
+                        <p>@okosta88</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="container qr-code-cont">
+                <div class="col d-flex align-items-start qr-code ">
+                    <div
+                        class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+
+                        <figure class="">
+                            <img class="qr-code-img" src="https://images2.imgbox.com/22/c2/JEy8Wn4V_o.png"
+                                alt="Imagem de QR-Code do WhatsApp">
+                            <p class="text-muted">(+55) 85 98826-8514</p>
+                        </figure>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img src="https://images2.imgbox.com/b5/29/n8UiTKYN_o.png" style="max-width: 50px;">
+                </a>
+                <span class="mb-3 mb-md-0 text-muted format-text3">© 2022 DevOkosta, Company.</span>
+
+            </div>
+
+            <span class="text-muted format-text3">" Tudo na vida
+                é um desafio que pode ser resolvido."</span>
+
+            <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 ">
+                <ul class="nav  justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a href="https://github.com/JUNIOROKOSTA" target="_blank" class="linke-contato">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a href="https://www.linkedin.com/in/juniorokosta/" target="_blank" class="linke-contato">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a href="https://www.instagram.com/okosta88/" target="_blank" class="linke-contato">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+
+            </div>
+
+
+        </footer>
+    </div>
+
+    <script src="JS\controler.js"></script>
+</body>
+
+</html>

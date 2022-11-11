@@ -1,0 +1,133 @@
+body {
+    background: #20272f;
+    font-family: Lato, 'Helvetica', helvetica, Arial, sans-serif;
+    letter-spacing: 1.5px;
+
+}
+
+.format-title-claro {
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 36px;
+    color: #28f7ca;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3), 0 0 28px #28f7ca;
+    text-align: center;
+}
+
+.format-title-ecuro {
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 36px;
+    color: #20272f;
+    text-align: center;
+}
+
+.format-title-ecuro2 {
+    text-transform: uppercase;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #20272f;
+    text-align: center;
+}
+
+.format-title-claro2 {
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #d6e2df;
+}
+
+
+.format-text1 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.format-text2 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.format-text3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.img-capa {
+    height: 65vh;
+    width: auto;
+    text-align: center;
+    margin-top: 26px;
+}
+
+
+.linke-contato {
+    color: #fafafa;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.linke-contato2 {
+    color: #20272f;
+    display: flex;
+    text-decoration: none;
+    font-size: 100px;
+}
+
+.qr-code-cont {
+    max-width: 90%;
+
+}
+
+.qr-code {
+    justify-content: center;
+}
+
+.qr-code-img {
+    width: 360px;
+}
+
+.padron {
+    align-items: center;
+}
+
+.format-card {
+    text-align: left;
+    color: #c4fff2;
+
+}
+
+.icon-card {
+    color: #c0faed;
+    font-size: 40px;
+    margin-right: 40px;
+
+}
+
+.active {
+    border-bottom: 1px solid #28f7ca;
+    border-radius: 7px;
+}
+
+.card-body .format-text2 {
+    min-height: 130px;
+}
+
+.card-body ul {
+    min-height: 100px;
+}
+.card h1{
+    min-height: 80px;
+}
