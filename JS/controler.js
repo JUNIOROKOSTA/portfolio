@@ -37,24 +37,24 @@ buttons.forEach((btn, index) => {
             btn_home.classList.remove('active')
         };
         // projetos
-        if (positionYscroll >= 710 && positionYscroll < 3280) {
+        if (positionYscroll >= 710 && positionYscroll < 4120) {
             btn_projetos.classList.add('active')
         };
-        if (positionYscroll > 3280 || positionYscroll < 710 && hasClassAc(btn_projetos, 'active')) {
+        if (positionYscroll > 4120 || positionYscroll < 710 && hasClassAc(btn_projetos, 'active')) {
             btn_projetos.classList.remove('active')
         };
         // sobre
-        if (positionYscroll >= 3280 && positionYscroll < 4220) {
+        if (positionYscroll >= 4125 && positionYscroll < 5530) {
             btn_sobre.classList.add('active')
         };
-        if (positionYscroll > 4220 || positionYscroll < 3280 && hasClassAc(btn_sobre, 'active')) {
+        if (positionYscroll > 5530 || positionYscroll < 4125 && hasClassAc(btn_sobre, 'active')) {
             btn_sobre.classList.remove('active')
         };
         // contato
-        if (positionYscroll >= 4220 && positionYscroll < 5880) {
+        if (positionYscroll >= 5535 && positionYscroll < 7900) {
             btn_contato.classList.add('active')
         };
-        if (positionYscroll > 5880 || positionYscroll < 4220 && hasClassAc(btn_contato, 'active')) {
+        if (positionYscroll > 7900 || positionYscroll < 5535 && hasClassAc(btn_contato, 'active')) {
             btn_contato.classList.remove('active')
         };
     };
